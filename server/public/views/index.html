@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Put that Postgres in that Node</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+  </head>
+  <body>
+    <h1>Add a Match</h1>
+    <form id="matchForm">
+      <label for="team1">Team 1</label>
+      <input type="text" id="team1" name="team1" />
+
+      <label for="team1score">Team 1 Score</label>
+      <input type="text" id="team1score" name="team1score" />
+
+      <label for="team2">Team 2</label>
+      <input type="text" id="team2" name="team2" />
+
+      <label for="team2score">Team 2 Score</label>
+      <input type="text" id="team2score" name="team2score" />
+
+      <button id="matchSubmit">Submit</button>
+    </form>
+
+    <h1>Matches</h1>
+    <table id="matches">
+    </table>
+    <script src="/vendors/jquery.js"></script>
+    <script src="/scripts/clientapp.js"></script>
+  </body>
+</html>
